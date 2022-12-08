@@ -1,0 +1,21 @@
+#Словарь, для глобальной замены русских терминов на английские с помощь обработки GlobalReplaceWords.epf
+
+.ЭлектроннаяПодписьСервисаDSS=.DSSElectronicSignatureService
+.АдресныйКлассификатор=.AddressClassifier
+.Организации=.Copmanies
+.Реклама=.Ads
+.СклонениеПредставленийОбъектов=.ObjectPresentationDeclension
+.ЗащитаПерсональныхДанных=.PersonalDataProtection
+.ПользователиСервиса=.ServiceUsers
+.РаботаСРекламойКлиент=.AdvertisingManagerClient
+Ханты-Мансийский Автономный округ - Югра=Khanty-Mansiysk Autonomous Okrug - Yugra
+.ПолучитьБлокировкуСеансов=.GetSessionsLock
+.ДомаЗданияСтроения=.HousesBuildingsBuildings
+.СлужебныеАдресныеСведения=.ServiceAddressDetails
+.УровниСокращенийАдресныхСведений=.AbbreviatedLevelsAddressDetails
+.ОригиналПолучен=.OriginalReceived
+.ПолноеНаименование=.FullDescription
+.ПараметрыПрограммныхСобытий()=.ProgramEventOptions()
+.ИнформацияОДоступныхИсправлениях()=.InformationAboutAvailableCorrections()
+.ИнтеграцияСКоннект=.IntegrationToConnect
+.ЭлектронныйДокументооборотСКонтролирующимиОрганами=.ElectronicDocumentManagementSupervisoryAuthorities
