@@ -108,3 +108,14 @@
 Отношение к Группе = Relation to group
 ЦФО=CFR
 Основная валюта=Primary currency
+
+1С:Предприятие=1C:Enterprise
+Выберите период=Select period
+
+#Ошибки перевода
+Настройка списка=List Options
+Основное=Main
+
+#Заглушки
+ВА - Основной регламент от * (Регламент подготовки отчетности)=ВА - Основной регламент of * (Regulation for preparing reports)
+Виды отчетов для установки лимитов=Kinds of reports for limit setting
