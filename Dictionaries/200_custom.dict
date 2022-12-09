@@ -111,15 +111,22 @@
 
 1С:Предприятие=1C:Enterprise
 Выберите период=Select period
+Статьи движения денежных средств=Cash flow items
 
 #Ошибки перевода
 Настройка списка=List Options
 Основное=Main
 Главное=Quick menu
 Номенклатура=Product range
+Период=Period
+Контрагент=Counterparty
+Договор=Contract
 
 #Заглушки
 ВА - Основной регламент от * (Регламент подготовки отчетности)=ВА - Основной регламент of * (Regulation for preparing reports)
 Виды отчетов для установки лимитов=Kinds of reports for limit setting
 Январь * г. - Март * г. (Периодичность: Месяц) <ВА - Основной сценарий>=Январь * г. - Март * г. (Frequency: Month) <ВА - Основной сценарий>
 * (Номенклатура)=* (Product range)
+* (Контрагент)=* (Counterparty)
+* (создание)*=* (create)*
+* (создание) *=* (create) *
