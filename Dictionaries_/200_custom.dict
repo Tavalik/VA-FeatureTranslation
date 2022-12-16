@@ -1,0 +1,76 @@
+#Фразы для перевода
+
+Файлы Microsoft Excel=Fayli Microsoft Excel
+Аналитика=Dimension
+Курс валюты=The currency exchange rate
+Код=Code
+Наименование=Description
+По точному совпадению=Exact match
+По части строки=Anywhere in the line
+По началу строки=At beginning if line 
+Материнское предприятие=Parent company
+Дочернее предприятие=Subsidiary
+Ассоциированное предприятие=Associate company
+Совместное предприятие=Joint venture
+Связанные стороны=Related parties
+Третьи стороны=Third parties
+Организаци=Business unit
+Налоговый резидент Российской Федерации (Юридическое лицо)=Tax resident of the Russian Federation (Legal entity)
+Физическое лицо=Individual
+Подразделения=Business units
+Подразделение=Business unit
+Сценарии: Сценарии=Scenarios: Scenarios
+Проекты=Projects
+Проект=Project
+Проекты и этапы=Projects and phases
+Консолидирующая организация\n/ Организационная единица=Consolidating company\n/ Business unit
+Отношение к Группе=Relation to group
+ЦФО=CFR
+Основная валюта=Primary currency
+1С:Предприятие=1C:Enterprise
+Выберите период=Select period
+Статьи движения денежных средств=Cash flow items
+Экземпляры отчетов=Report instances
+до=Before
+параметров=parameters
+Аналитика группы=Group dimension
+Строки отчетов=Report lines
+Показатели отчетов=Report indicators
+Дерево показателей=Indicator tree
+Регламент подготовки отчетности=Regulation for preparing reports
+
+#Ошибки перевода
+Настройка списка=List Options
+Основное=Main
+Главное=Quick menu
+Номенклатура=Product range
+Период=Period
+Контрагент=Counterparty
+Договор=Contract
+Валюта=Currency
+Создание=Creation
+создание=create
+(создание)=(create)
+создание группы=create folder
+от=of
+Сумма=Amount
+Аналитики показателей=Indicator dimensions
+Раскрытие по валютам=Disclose by currencies
+Аналитика=Dimension
+Бланк=Template
+вида отчета=report kind
+Нет=No
+Процент=Percentage
+
+#Заглушки
+ВА - Основной регламент от * (Регламент подготовки отчетности)=ВА - Основной регламент of * (Regulation for preparing reports)
+Виды отчетов для установки лимитов=Kinds of reports for limit setting
+Январь * г. - Март * г. (Периодичность: Месяц) <ВА - Основной сценарий>=Январь * г. - Март * г. (Frequency: Month) <ВА - Основной сценарий>
+#* (Номенклатура)=* (Product range)
+#* (Контрагент)=* (Counterparty)
+ВА - Ручной ввод по всем аналитикам (Виды отчетов)=ВА - Ручной ввод по всем аналитикам (Report kinds)
+Валюты (Виды аналитик (корпоративные))=Currencies (Dimension kinds (corporate))
+Экземпляр отчета [ТекВидОтчета]:=The [ТекВидОтчета] report instance:
+
+#01
+Экземпляр отчета ВА - Ручной ввод по всем аналитикам:  Валюта отображения:  RUB <Меркурий ООО> <ВА - Основной проект> <Январь * г. - Март * г. (Периодичность: Месяц) <ВА - Основной сценарий>>=The ВА - Ручной ввод по всем аналитикам report instance:  Display currency: RUB <Меркурий ООО><ВА - Основной проект><Январь 2021 г. - Март 2021 г. (Frequency: Month) <ВА - Основной сценарий>>

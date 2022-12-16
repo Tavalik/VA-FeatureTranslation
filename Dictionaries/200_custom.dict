@@ -11,7 +11,6 @@
 ДополнительныеВалютыВалюта = AdditionalCurrenciesCurrency
 ТаблицаРедактированияКурсовТаблицаКурсов_Обновить = RatesEditTableRatesTable_Update
 ТаблицаРедактированияКурсовТаблицаКурсов_Записать = RatesEditTableRatesTable_Write
-Валюты (Виды аналитик (корпоративные)) = Currencies (Виды аналитик (корпоративные))
 ФормаДокументУправлениеПериодомСценарияДокументыУправленияОтчетнымПериодом = FormDocumentScenarioPeriodManagementAccountingPeriodManagementDocs
 НЕ $$ЭтоЕРПУХ = NOT $$IsERPCPM
 ФормаДокументНастраиваемыйОтчетСоздатьНаОсновании = FormDocumentCustomizableReportCreateBasedOn
@@ -131,3 +130,5 @@
 * (Контрагент)=* (Counterparty)
 * (создание)*=* (create)*
 * (создание) *=* (create) *
+ВА - Ручной ввод по всем аналитикам (Виды отчетов)=ВА - Ручной ввод по всем аналитикам (Report kinds)
+Валюты (Виды аналитик (корпоративные))=Currencies (Dimension kinds (corporate))
