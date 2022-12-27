@@ -1,13 +1,13 @@
 #Фразы для перевода
 
-Файлы Microsoft Excel=Fayli Microsoft Excel
+Файлы Microsoft Excel=Microsoft Excel files
 Аналитика=Dimension
 Курс валюты=The currency exchange rate
 Код=Code
 Наименование=Description
 По точному совпадению=Exact match
 По части строки=Anywhere in the line
-По началу строки=At beginning if line 
+По началу строки=At beginning of line 
 Материнское предприятие=Parent company
 Дочернее предприятие=Subsidiary
 Ассоциированное предприятие=Associate company
@@ -38,6 +38,14 @@
 Показатели отчетов=Report indicators
 Дерево показателей=Indicator tree
 Регламент подготовки отчетности=Regulation for preparing reports
+Режим просмотра версии=Version view mode
+Режим сравнения двух версий=Two versions comparison mode
+сводная таблица=pivot table
+Колонки отчетов=Report columns
+Интеграция и управление мастер-данными=Integration and master data management
+Внешние информационные базы=External infobases
+Конструктор запроса=Query wizard
+Дата конца периода отчета=Report period end date
 
 #Ошибки перевода
 Настройка списка=List Options
@@ -61,16 +69,20 @@
 вида отчета=report kind
 Нет=No
 Процент=Percentage
-
-#Заглушки
-ВА - Основной регламент от * (Регламент подготовки отчетности)=ВА - Основной регламент of * (Regulation for preparing reports)
-Виды отчетов для установки лимитов=Kinds of reports for limit setting
-Январь * г. - Март * г. (Периодичность: Месяц) <ВА - Основной сценарий>=Январь * г. - Март * г. (Frequency: Month) <ВА - Основной сценарий>
-#* (Номенклатура)=* (Product range)
-#* (Контрагент)=* (Counterparty)
-ВА - Ручной ввод по всем аналитикам (Виды отчетов)=ВА - Ручной ввод по всем аналитикам (Report kinds)
-Валюты (Виды аналитик (корпоративные))=Currencies (Dimension kinds (corporate))
-Экземпляр отчета [ТекВидОтчета]:=The [ТекВидОтчета] report instance:
-
-#01
-Экземпляр отчета ВА - Ручной ввод по всем аналитикам:  Валюта отображения:  RUB <Меркурий ООО> <ВА - Основной проект> <Январь * г. - Март * г. (Периодичность: Месяц) <ВА - Основной сценарий>>=The ВА - Ручной ввод по всем аналитикам report instance:  Display currency: RUB <Меркурий ООО><ВА - Основной проект><Январь 2021 г. - Март 2021 г. (Frequency: Month) <ВА - Основной сценарий>>
+Список значений=Value list
+Организация=Company
+Сценарий=Scenario
+Использование=Use
+ПОЛЕ=Left value
+Режим отображения=Display mode
+Вид сравнения=Comparison type
+Равно=Equal to
+тысячах=thousand
+Список значений (функция на встроенном языке)=List of values (function in 1C:Enterprise script)
+Загрузить из Excel=Import from Excel
+Все данные отчетного периода=All data for reporting period
+Не равно=Not equal
+успешно записан=is saved successfully
+Элементы пути к файлам организаций: Форма списка=Company file path items: List form
+Ссылка=Reference
+Введите значение=Enter a value
