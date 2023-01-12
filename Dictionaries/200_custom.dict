@@ -56,14 +56,12 @@
 Контрагент=Counterparty
 Договор=Contract
 Валюта=Currency
-Создание=Creation
+Создание=Create
 создание=create
 (создание)=(create)
 создание группы=create folder
-от=of
 Сумма=Amount
 Аналитики показателей=Indicator dimensions
-Раскрытие по валютам=Disclose by currencies
 Аналитика=Dimension
 Бланк=Template
 вида отчета=report kind
@@ -88,3 +86,5 @@
 Введите значение=Enter a value
 Виды отчетов для установки лимитов=Kinds of reports for limit setting
 Экземпляр отчета Равно "Экземпляр отчета *"=Report instance Equal to "Report instance *"
+от=from
+Выбор доступного реквизита=Select attribute

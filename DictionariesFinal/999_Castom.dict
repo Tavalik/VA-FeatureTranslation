@@ -1,0 +1,28 @@
+# Нет в основном словаре
+Налоговый резидент Российской Федерации (Юридическое лицо)=Tax resident of the Russian Federation (Legal entity)
+Виды отчетов для установки лимитов=Kinds of reports for limit setting
+Файлы Microsoft Excel=Microsoft Excel files
+Все данные отчетного периода=All data for reporting period
+
+# Ошибки в основном словаре
+ЦФО=CFR
+Выбор доступного реквизита=Select attribute
+Конструктор запроса=Query wizard
+Текущая информационная база=Current infobase
+
+# Перевод платформы
+По точному совпадению=Exact match
+По части строки=Anywhere in the line
+По началу строки=At beginning of line
+создание группы=create folder
+Выберите период=Select period
+Введите значение=Enter a value
+Список значений=Value list
+Режим отображения=Display mode
+Не равно=Not equal
+В списке=In list
+
+# Специфичные фразы для тестов
+Организаци=Business unit
+ПОЛЕ=Left value
+успешно записан=saved successfully
