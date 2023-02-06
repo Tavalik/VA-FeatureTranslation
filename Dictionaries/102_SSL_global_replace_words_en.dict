@@ -18,4 +18,4 @@
 .ПараметрыПрограммныхСобытий()=.ProgramEventOptions()
 .ИнформацияОДоступныхИсправлениях()=.InformationAboutAvailableCorrections()
 .ИнтеграцияСКоннект=.IntegrationToConnect
-.ЭлектронныйДокументооборотСКонтролирующимиОрганами=.ElectronicDocumentManagementSupervisoryAuthorities
+.ЭлектронныйДокументооборотСКонтролирующимиОрганами=.ElectronicDocumentManagementSupervisoryAuthorities

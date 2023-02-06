@@ -1,0 +1,313 @@
+# Нет в основном словаре
+СписокВидовОтчетов=ListOfReportTypes
+СписокЭкземпляров=InstancesList
+ФормаОтчетГрафическийОтчетСвязейОтчетовОткрытьОтчет=FormReportGraphicReportOnReportLinksOpenReport
+ФормаОтчетОтчетОСвязяхМеждуОтчетамиОткрытьОтчет=FormReportReportLinksReportOpenReport
+Показатель=Indicator
+ВАРучнойВводПоВсемАналитикам=VAManualEntryForAllAnalytics
+количество=count
+цена=price
+УникальныйИдентификатор=UUID
+МакетИмпорта=ImportTemplate
+ФормаСравнитьСЭталоннымМакетомПо=FormCompareWithRefTemplateBy
+ФормаСравнитьДокументы=FormCompareDocs
+Параметр=Parameter
+Настройка отбора значений показателей=Indicator value filter settings
+
+# Ошибки в основном словаре
+Нет=No
+Январь 2021 г.=January 2021
+Февраль 2021 г.=February 2021
+Март 2021 г.=March 2021
+1 квартал 2021 г.=1 quarter of 2021
+Артикул=ProductID
+НоменклатурныеГруппы=ProductGroups
+НоменклатурнаяГруппа=ProductCategory
+ВидДоговора=ContractKind
+ВалютаВзаиморасчетов=MutualSettlementsCurrency
+КонтекстноеМенюУстановитьПометкуУдаления=ContextMenuSetDeletionMark
+ТаблицаРедактированияКурсовТаблицаКурсов_Обновить=RatesEditTableRatesTable_Update
+ТаблицаРедактированияКурсовТаблицаКурсов_Записать=RatesEditTableRatesTable_Write
+ФормаОткрытьДвиженияДокументаПлоскаяТаблица=FormOpenDocRegisterRecordsFlatTab
+ВидыОтчетовИспользовать=ReportsKindsShouldUse
+ОтборСнятьФлажки=FilterUncheckAll
+ИТОГО=TOTAL
+Итого=Total
+Валютная=IsCurrency
+валюты=currencies
+НаименованиеНастройки=DescricptionSettings
+ИмяФайлаВыгрузки=ExportFileName
+ФормаЗаполнитьПрочимСпособом=FormFillInUsingAnotherApproach
+
+# Специфичные фразы для тестов
+Система ООО=System LLC
+Меркурий ООО=Mercury LLC
+Венера ООО=Venus LLC
+Земля ООО=Earth LLC
+Марс ООО=Mars LLC
+Администрация=Administration
+Бухгалтерия=Accounting
+Ганимед=Ganymede
+Ио=Io
+
+ВА=VA
+ВА - Пакет ЦФО=VA - Package CFR
+ВА - Дочернее предприятие=VA - Subsidiary
+ВА - Основной сценарий=VA - Main scenario
+ВА - Основной проект=VA - Main project
+ВА - Группа отчетов=VA - Report group
+ВА - Основной регламент=VA - Main regulations
+ВА - Номенклатура=VA - Products
+ВА - Прочее=VA - Other
+ВА - Номенклатурная группа=VA - Product range group
+ВА - Соглашение с клиентом=VA - Agreement with the client
+ВА - Контрагенты=VA - Counterparties
+ВА - Статьи ДДС=VA - Cash flow items
+ВА - Статьи доходов и расходов=VA - Income and expense items
+ВА - Ручной ввод по всем аналитикам=VA - Manual entry for all analytics
+ВА - Основной вариант=VA - Main variant
+ВА - Произвольный запрос=VA - Arbitrary request
+ВА - Нарастающий итог=VA - Cumulative total
+ВА - Аналитики других источников=VA - Analysts from other sources
+ВА - Аналитики из полей других источников=VA - Analysts from fields of other sources
+ВА - Данные для дополнения аналитик=VA - Data to add analytics
+ВА - Нечисловые показатели и группировки=VA - Non-Numbers and Groupings
+ВА - Нечисловые показатели=VA - Non-Numbers
+ВА - Импорт из Excel=VA - Import from Excel
+ВА - ИмпортExcel=VA - ImportExcel
+
+ВА0ТовКате=VA0ProCate
+ВА0Номенкл=VA0Product
+ВА0Контраг=VA0Counter
+ВА0ДогКонт=VA0Contrac
+ВА0СтатДДС=VA0CFItems
+ВА0СДохРас=VA0IEItems
+
+Товарные категории=Product categories
+Номенклатура=Products
+Контрагенты=Counterparties
+Договоры контрагентов=Contracts
+Статьи ДДС=Cash flow items
+Статьи доходов и расходов=Income and expense items
+Программные продукты=Software products
+Реализация программных продуктов=Software sale
+Внедрение программных продуктов=Software implementation
+Апгрейд программных продуктов=Software upgrade
+
+1С:Предприятие 8.3 КОРП. Лицензия на сервер (x86-64)=1C:Enterprise 8.3 CORP. Server License (x86-64)
+1С:Предприятие 8 КОРП. Клиентская лицензия на 100 рабочих мест=1C:Enterprise 8 CORP. Client license for 100 users
+1С:Управление холдингом 8=1C:Corporate performance management
+1С:Корпорация=1C:Corporation
+1С:ERP. Управление холдингом=1C:ERP. Corporate performance management
+
+СтрокаСинтетика=LineSynthetic
+СтрокаАналитика=LineAnalytics
+СтрокаУдалить=LineDelete
+СтолбецУдалить=ColumnDelete
+ГруппаСтрок=LinesGroup
+СТРКСинтетика=LineSynthetic
+СТРКАНЛТ=LineAnalytics
+СТРКАНЛТ6Валюта=LineAnalytics6Curren
+СТРКАНЛТВалюта=LineAnalyticsCurrenc
+СТРКУдалить=LineDelete
+Аналитику=Dimension
+ГР=GR
+ВА - Ручной ввод по всем аналитикам_СтрокаАналитика1=VA - Manual entry for all analytics_LineAnalytics1
+СравнитьСЭталоннымМакетомПо
+
+Шаблону=Template
+Значениям=Value
+
+Номенклатура.Артикул=Products.Product ID
+ФормаВидимостьВидыОтчетов=FormReportsTypesVisibility
+ФормаВидимостьПроцедурИФункций=FormProceduresAndFunctionsVisibility
+
+# Запросы
+АВТОУПОРЯДОЧИВАНИЕ=AUTOORDER
+АВТОНОМЕРЗАПИСИ=RECORDAUTONUMBER
+БУЛЕВО=BOOLEAN
+В=IN
+ВНЕШНЕЕ=OUTER
+ВНУТРЕННЕЕ=INNER
+ВОЗР=ASC
+СЕ=ALL
+ВЫБОР=CASE
+ВЫБРАТЬ=SELECT
+ВЫРАЗИТЬ=CAST
+ГДЕ=WHERE
+ГОД=YEAR
+ГРУППИРУЮЩИМ=GROUPING
+ДАТА=DATE
+ДАТАВРЕМЯ=DATETIME
+ДЕКАДА=TENDAYS
+ДЕНЬ=DAY
+ДЕНЬГОДА=DAYOFYEAR
+ДЕНЬНЕДЕЛИ=WEEKDAY
+ДЛЯ ИЗМЕНЕНИЯ=FOR UPDATE
+ДОБАВИТЬКДАТЕ=DATEADD
+ЕСТЬ=IS
+ЕСТЬNULL=ISNULL
+ЗНАЧЕНИЕ=VALUE
+И=AND
+ИЕРАРХИИ=HIERARCHY
+ИЕРАРХИЯ=HIERARCHY
+ИЗ=FROM
+ИЛИ=OR
+ИМЕЮЩИЕ=HAVING
+ИНАЧЕ=ELSE
+ИНДЕКСИРОВАТЬ ПО=INDEX BY
+ИСТИНА=TRUE
+ИТОГИ=TOTALS
+КАК=AS
+КВАРТАЛ=QUARTER
+КОГДА=WHEN
+КОЛИЧЕСТВО=COUNT
+КОНЕЦПЕРИОДА=ENDOFPERIOD
+КОНЕЦ=END
+ЛЕВОЕ=LEFT
+ЛОЖЬ=FALSE
+МАКСИМУМ=MAX
+МЕЖДУ=BETWEEN
+МЕСЯЦ=MONTH
+МИНИМУМ=MIN
+МИНУТА=MINUTE
+НАБОРАМ=SETS
+НАЧАЛОПЕРИОДА=BEGINOFPERIOD
+НЕ=NOT
+НЕДЕЛЯ=WEEK
+НЕОПРЕДЕЛЕНО=UNDEFINED
+ОБЩИЕ=OVERALL
+ОБЪЕДИНИТЬ=UNION
+ПЕРВЫЕ=TOP
+ПЕРИОДАМИ=PERIODS
+ПОДОБНО=LIKE
+ПОДСТРОКА=SUBSTRING
+ПОЛНОЕ=FULL
+ПОЛУГОДИЕ=HALFYEAR
+ПОМЕСТИТЬ=INTO
+ПРАВОЕ=RIGHT
+ПРЕДСТАВЛЕНИЕ=PRESENTATION
+ПРЕДСТАВЛЕНИЕССЫЛКИ=REFPRESENTATION
+ПУСТАЯТАБЛИЦА=EMPTYTABLE
+РАЗЛИЧНЫЕ=DISTINCT
+РАЗНОСТЬДАТ=DATEDIFF
+РАЗРЕШЕННЫЕ=ALLOWED
+СГРУППИРОВАТЬ ПО=GROUP BY
+СГРУППИРОВАНОПО=GROUPEDBY
+СЕКУНДА=SECOND
+СОЕДИНЕНИЕ=JOIN
+СПЕЦСИМВОЛ=ESCAPE
+СРЕДНЕЕ=AVG
+ССЫЛКА=REFS
+СТРОКА=STRING
+СУММА=SUM
+ТОГДА=THEN
+ТИП=TYPE
+ТИПЗНАЧЕНИЯ=VALUETYPE
+ТОЛЬКО=ONLY
+УБЫВ=DESC
+УПОРЯДОЧИТЬ ПО=ORDER BY
+ЧАС=HOUR
+ЧИСЛО=NUMBER
+УНИЧТОЖИТЬ=DROP
+
+# Тест 03
+$КаталогПроекта$\Макеты\ВА_ИмпортExcel_Шаблон.xlsx=$КаталогПроекта$\Макеты\ВА_ИмпортExcel_Шаблон.xlsx
+$КаталогПроекта$\Макеты\ВА_ИмпортExcel_Шаблон.mxl=$КаталогПроекта$\Макеты\ВА_ИмпортExcel_Шаблон.mxl
+$КаталогПроекта$\Макеты\ВА_ИмпортExcel_Меркурий_En.xlsx=$КаталогПроекта$\Макеты\ВА_ИмпортExcel_Меркурий_En_En.xlsx
+$КаталогПроекта$\Макеты\ВА_ИмпортExcel_Меркурий_2_En.xlsx=$КаталогПроекта$\Макеты\ВА_ИмпортExcel_Меркурий_2_En_En.xlsx
+
+Договоры контрагентов_Наименование=Contracts_Description
+Товарные категории_Наименование=Product categories_Description
+Статьи ДДС_Наименование=Cash flow items_Description
+Статьи доходов и расходов_Наименование=Income and expense items_Description
+Договоры контрагентов.Наименование=Contracts.Description
+Товарные категории.Наименование=Product categories.Description
+Статьи ДДС.Наименование=Cash flow items.Description
+Статьи доходов и расходов.Наименование=Income and expense items.Description
+
+# Тест 04
+Текущая формула=Current formula
+Другой источник=Other source
+Трансформация аналитик=Analyst transformation
+ТрансформациАналитик=AnalystTransformatio
+Рассчитываемый источник=Calculated Source
+Пересчет в коде=Recalculation in code
+
+# Тест 07
+ВА - Расчет в коде=VA - Calculation in code
+источник=source
+приемник=recipient
+ВключатьВПрайс=IncludeInPrice
+Товары_ВключатьВПрайс=Goods_IncludeInPrice
+ВАНечисловыеПоказателиИсточник=VANonNumbersSource
+ВАНечисловыеПоказателиИсточник_Товары_ВключатьВП=VANonNumbersSource_Goods_IncludeInPrice
+ВАНечисловыеПоказателиИсточник_Товары_Цена=VANonNumbersSource_Goods_Price
+ВАНечисловыеПоказателиИсточник_Товары_ДатаПоступ=VANonNumbersSource_Goods_DateReceipts
+ВАН=Indicator value filter settingsечисловыеПоказателиИсточник_Товары_Артикул=VANonNumbersSource_Goods_ProductID
+ВАРасчетВКоде=VACalculationInCode
+ВАРасчетВКоде_Источник_Дата=VACalculationInCode_Source_Date
+ВАРасчетВКоде_Источник_Булево=VACalculationInCode_Source_Boolean
+ВАРасчетВКоде_Источник_СТРК=VACalculationInCode_Source_ROW
+Меркурий ООО\nВА - Основной сценарий\nRUB\nЯнварь 2021 г.\nМесяц=Mercury LLC\nVA - Main scenario\nRUB\nJanuary 2021\nMonth
+Меркурий ООО\nВА - Основной сценарий\nRUB\nФевраль 2021 г.\nМесяц=Mercury LLC\nVA - Main scenario\nRUB\nFebruary 2021\nMonth
+Меркурий ООО\nВА - Основной сценарий\nRUB\nМарт 2021 г.\nМесяц=Mercury LLC\nVA - Main scenario\nRUB\nMarch 2021\nMonth
+ВА - Группировка по аналитикам=VA - Grouping by analytics
+ВАГруппировкаПоАналитикам_ТоварыСумма_Максимум=VAGroupingByAnalytics_GoodsSum_Maximum
+ВАГруппировкаПоАналитикам_ТоварыБезИтога_Максимум=VAGroupingByAnalytics_GoodsNoTotal_Maximum
+ВАГруппировкаПоАналитикам=VAGroupingByAnalytics
+ТоварыСумма_Минимум=GoodsSum_Minimum
+ТоварыБезИтога_Минимум=GoodsNoTotal_Minimum
+ТоварыСумма_Среднее=GoodsSum_Mean
+ТоварыБезИтога_Среднее=GoodsNoTotal_Mean
+ТоварыБезИтога_БезИтога=GoodsNoTotal_NoTotal
+ТоварыСумма_БезИтога=GoodsSum_NoTotal
+Макеты\ВА_РасчетВКоде_Движения.mxl=Макеты\ВА_РасчетВКоде_Движения_En_En.mxl
+Макеты\ВА_ГруппировкаПоАналитикам_Движения.mxl=Макеты\ВА_ГруппировкаПоАналитикам_Движения_En_En.mxl
+
+# Тест 08
+ДанныеИсточника=SourceData
+
+ИзИсточникаДоВычисления=FromSourceBeforeCalculation
+ИзИсточникаДоВычисленияХ2=FromSourceBeforeCalculationX2
+ИзИсточникаПослеВычисления=FromSourceAfterCalculation
+ИзИсточникаОтборПоПериоду=FromSourceSelectionByPeriod
+ИзПриемникаОтборПоПериоду=FromReceiverSelectionByPeriod
+ИзПриемникаСдвигПериода=FromReceiverShiftPeriod
+ИзИсточникаПроизвольныйКод=FromSourceArbitraryCode
+ИзПриемникаСдвигПери=FromReceiverSelectio
+ИзИсточникаДоВычисле=FromSourceBeforeCalc
+ИзИсточникаПослеВычи=FromSourceAfterCalcu
+ВАНарастающийИтогИсточник=VACumulativeTotalSource
+
+Макеты\ВА_НарастающийИтог_Движения.mxl=Макеты\ВА_НарастающийИтог_Движения_En_En.mxl
+
+# Тест 09
+ВА - Валютные показатели=VA - Currency indicators
+
+Выручка=Revenue
+Выручка в валюте=Revenue in currency
+Выручка по валюте=Revenue by currency
+Дата курса=Course date
+
+ВыручкаВВалюте=RevenueInCurrency
+ВыручкаПоВалюте=RevenueByCurrency
+ДатаКурса=CourseDate
+
+Средний курс за период=Average rate for period
+Средний курс за период МСФО=Average rate for IFRS period
+Средний курс за период ЦБ=Average rate for period CB
+Курс на начало периода=Exchange rate at the beginning of the period
+Курс на конец периода=Exchange rate at the end of the period
+Средний курс за предыдущий период=Average rate for the previous period
+Курс на конец предыдущего периода=Exchange rate at the end of the previous period
+Средний курс за предыдущий период ЦБ=Average rate for the previous period CB
+Курс на дату, указанную в показателе=Exchange rate as of the date specified in the indicator
+Курс на дату, указанную в показателе другого отчета=Exchange rate as of the date specified in the indicator another report
+Курс, указанный в показателе=Rate specified in the indicator
+Курс, указанный в показателе другого отчета=Rate specified in the indicator another report
+
+Макеты\ВА_ВалютныеПоказатели_Источник_Движения.mxl=Макеты\ВА_ВалютныеПоказатели_Источник_Движения_En_En.mxl
+Макеты\ВА_ВалютныеПоказатели_Приемник_Движения.mxl=Макеты\ВА_ВалютныеПоказатели_Приемник_Движения_En_En.mxl
+
+
