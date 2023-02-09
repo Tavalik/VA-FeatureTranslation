@@ -3,6 +3,7 @@
 Виды отчетов для установки лимитов=Kinds of reports for limit setting
 Файлы Microsoft Excel=Microsoft Excel files
 Все данные отчетного периода=All data for reporting period
+Тип организации=Company type
 
 # Ошибки в основном словаре
 ЦФО=CFR
@@ -30,4 +31,7 @@
 ПОЛЕ=Left value
 успешно записан=saved successfully
 *Страна мира*=*Country*
+Параметры вывода аналитики (Номенклатура)=Dimension display parameters (Products)
+Редактирование порядка=Edit order
+<Без отбора>=<Without filter>
 
