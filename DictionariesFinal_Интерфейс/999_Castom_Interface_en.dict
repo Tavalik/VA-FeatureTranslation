@@ -11,7 +11,13 @@
 Конструктор запроса=Query wizard
 Текущая информационная база=Current infobase
 Страна мира=Country
-(создание)=(create)
+создание=create
+ИТОГО=TOTAL
+Настройка области аналитического раскрытия=Set up dimension drilldown area
+количество=quantity
+цена=price
+сумма=amount
+от=from
 
 # Перевод платформы
 По точному совпадению=Exact match
@@ -31,7 +37,298 @@
 ПОЛЕ=Left value
 успешно записан=saved successfully
 *Страна мира*=*Country*
-Параметры вывода аналитики (Номенклатура)=Dimension display parameters (Products)
+Параметры вывода аналитики (Номенклатура)=Dimension display parameters (Product range)
 Редактирование порядка=Edit order
 <Без отбора>=<Without filter>
+$ФормулыКод$\nЯнварь 2021 г.\nМесяц=$ФормулыКод$\nJanuary 2021\nMonth
+$ФормулыКод$\nФевраль 2021 г.\nМесяц=$ФормулыКод$\nFebruary 2021\nMonth
+$ФормулыКод$\nМарт 2021 г.\nМесяц=$ФормулыКод$\nMarch 2021\nMonth
+сводная таблица=pivot table
+корпоративные=corporate
+
+# Периоды
+Январь 2021 г.=January 2021
+Февраль 2021 г.=February 2021
+Март 2021 г.=March 2021
+1 квартал 2021 г.=1 quarter of 2021
+
+# НСИ И Тесты
+
+# Тест 00
+УХ - Бюджетирование=CPM - Budget
+УХ - НСИ=CPM - MasterData
+УХ - Казначейство=CPM - Treasury
+УХ - Закупки=CPM - Purchases
+УХ - Дымовые=CPM - Smoke
+
+ГР=DG
+ВА=VA
+
+Штука=Piece
+шт=PCs
+Российский рубль=Russian ruble
+Евро=Euro
+Доллар США=US dollar
+Тенге=Tenge
+РОССИЯ=Russia
+Российская Федерация=The Russian Federation
+
+ВА - Пакет ЦФО=VA - Package CFR
+ВА - Дочернее предприятие=VA - Subsidiary
+ВА - Основной сценарий=VA - Main scenario
+ВА - Основной проект=VA - Main project
+ВА - Группа отчетов=VA - Report group
+ВА - Основной регламент=VA - Main regulations
+ВА - Номенклатура=VA - Products
+ВА - Прочее=VA - Other
+ВА - Номенклатурная группа=VA - Product range group
+ВА - Соглашение с клиентом=VA - Agreement with the client
+ВА - Контрагенты=VA - Counterparties
+ВА - Статьи ДДС=VA - Cash flow items
+ВА - Статьи доходов и расходов=VA - Income and expense items
+
+ВА0ТовКате=VA0ProCate
+ВА0Номенкл=VA0Product
+ВА0Контраг=VA0Counter
+ВА0ДогКонт=VA0Contrac
+ВА0СтатДДС=VA0CFItems
+ВА0СДохРас=VA0IEItems
+
+ООО=LLC
+Система=System
+Меркурий=Mercury
+Венера=Venus
+Земля=Earth
+Марс=Mars
+Администрация=Administration
+Бухгалтерия=Accounting
+Ганимед=Ganymede
+Ио=Io
+
+Товарные категории=Product categories
+Статьи ДДС=Cash flow items
+Программные продукты=Software products
+Реализация программных продуктов=Software sale
+Внедрение программных продуктов=Software implementation
+Апгрейд программных продуктов=Software upgrade
+
+1С:Предприятие 8.3 КОРП. Лицензия на сервер=4C:Enterprise 8.3 CORP. Server License
+1С:Предприятие 8 КОРП. Клиентская лицензия на 100 рабочих мест=3C:Enterprise 8 CORP. Client license for 100 users
+1С:Управление холдингом 8=5C:Corporate performance management
+1С:Корпорация=2C:Corporation
+1С:ERP. Управление холдингом=1C:ERP. Corporate performance management
+
+# Тест 01
+ВА - Ручной ввод по всем аналитикам=VA - Manual entry for all analytics
+ВА - Основной вариант=VA - Main variant
+
+СтрокаСинтетика=LineSynthetic
+СтрокаАналитика=LineDimension
+СтрокаУдалить=LineDelete
+СтолбецУдалить=ColumnDelete
+ГруппаСтрок=LinesGroup
+СТРКСинтетика=LineSynthetic
+СТРКАНЛТ=LineDimension
+СТРКАНЛТВалюта=LineDimensionCurrenc
+СТРКАНЛТ6Валюта=LineDimension6Curren
+СТРКАНЛТ6Валюта_Количество1=LineDimension6Curren_Quantity1
+СТРКАНЛТ6Валюта_Цена1=LineDimension6Curren_Price1
+СТРКАНЛТ6Валюта_Сумма1=LineDimension6Curren_Amount1
+СТРКУдалить=LineDelete
+({ВАРучнойВводПоВсемАналитикам.СТРКСинтетика_Цена1}+{ВАРучнойВводПоВсемАналитикам.СТРКАНЛТ1_Цена1}+{ВАРучнойВводПоВсемАналитикам.СТРКАНЛТ2_Цена1}+{ВАРучнойВводПоВсемАналитикам.СТРКАНЛТ3_Цена1}+{ВАРучнойВводПоВсемАналитикам.СТРКАНЛТ4_Цена1}+{ВАРучнойВводПоВсемАналитикам.СТРКАНЛТ5_Цена1}+{ВАРучнойВводПоВсемАналитикам.СТРКАНЛТ6_Цена1}+{ВАРучнойВводПоВсемАналитикам.СТРКАНЛТ6Валюта_Цена1}+{ВАРучнойВводПоВсемАналитикам.СТРКАНЛТВалюта_Цена1})/9=({VAManualEntryForAllAnalytics.LineSynthetic_Price1}+{VAManualEntryForAllAnalytics.LineDimension1_Price1}+{VAManualEntryForAllAnalytics.LineDimension2_Price1}+{VAManualEntryForAllAnalytics.LineDimension3_Price1}+{VAManualEntryForAllAnalytics.LineDimension4_Price1}+{VAManualEntryForAllAnalytics.LineDimension5_Price1}+{VAManualEntryForAllAnalytics.LineDimension6_Price1}+{VAManualEntryForAllAnalytics.LineDimension6Curren_Price1}+{VAManualEntryForAllAnalytics.LineDimensionCurrenc_Price1})/9
+ВА - Ручной ввод по всем аналитикам_СтрокаАналитика1=VA - Manual entry for all analytics_LineDimension1
+
+Режим просмотра версии=Version view mode
+Режим сравнения двух версий=Two versions comparison mode
+
+# Тест 02
+ВА - Продажи=VA - Sales
+Процедура до вычисления=Procedure before calculation
+Процедура после вычисления=Procedure after calculation
+Номенклатура_Количество=ProductRange_Quantity
+Номенклатура_Цена=ProductRange_Price
+
+# Тест 03
+ВА - Импорт из Excel=VA - Import from Excel
+ВА - ИмпортExcel=VA - ImportExcel
+Синтетика=Synthetic
+$КаталогПроекта$\Макеты\ВА_ИмпортExcel_Меркурий.xlsx=$КаталогПроекта$\Макеты\ВА_ИмпортExcel_Меркурий_En.xlsx
+$КаталогПроекта$\Макеты\ВА_ИмпортExcel_Меркурий_2.xlsx=$КаталогПроекта$\Макеты\ВА_ИмпортExcel_Меркурий_2_En.xlsx
+
+# Тест 04
+ВА - Произвольный запрос=VA - Arbitrary request
+
+# Тест 05
+ВА - Заполнение из РН=VA - Filling from PH
+без истории=no history
+
+# Тест 06
+ВА - Аналитики других источников=VA - Analysts from other sources
+ВА - Аналитики из полей других источников=VA - Analysts from fields of other sources
+ВА - Данные для дополнения аналитик=VA - Data to add analytics
+Текущая формула=Current formula
+Другой источник=Other source
+Трансформация аналитик=Analyst transformation
+Рассчитываемый источник=Calculated Source
+Пересчет в коде=Recalculation in code
+Товары=Goods
+СтатьиДДС=CashFlowItems
+ТрансформациАналитик=AnalystTransformatio
+ВА - Данные для дополнения аналитик_Товары количество=VA - Data to add analytics_Goods quantity
+
+# Тест 07
+ВА - Нечисловые показатели и группировки=VA - Non-Numbers and Groupings
+ВА - Нечисловые показатели=VA - Non-Numbers
+ВА - Расчет в коде=VA - Calculation in code
+ВА - Группировка по аналитикам=VA - Grouping by analytics
+
+источник=source
+приемник=recipient
+число=number
+дата=date
+булево=boolean
+строка=line
+максимум=maximum
+минимум=minimum
+среднее=average
+безитога=nototal
+
+ВключатьВПрайс=IncludeInPrice
+БезИтога=NoTotal
+Товары_ВключатьВПрайс=Goods_IncludeInPrice
+Товары_Артикул=Goods_ProductID
+ТоварыСумма=GoodsSum
+ТоварыБезИтога=GoodsNoTotal
+Источник_СТРК=Source_Line
+
+ВАРасчетВКоде=VACalculationInCode
+ВАРасчетВКоде_Источник_Булево=VACalculationInCode_Source_Boolean
+ВАРасчетВКоде_Источник_СТРК=VACalculationInCode_Source_Line
+ВАРасчетВКоде_Источник_Дата=VACalculationInCode_Source_Date
+
+ВАНечисловыеПоказателиИсточник=VANonNumbersSource
+ВАНечисловыеПоказателиИсточник_Товары_ВключатьВП=VANonNumbersSource_Goods_IncludeInPrice
+ВАНечисловыеПоказателиИсточник_Товары_Цена=VANonNumbersSource_Goods_Price
+ВАНечисловыеПоказателиИсточник_Товары_ДатаПоступ=VANonNumbersSource_Goods_DateInflow
+ВАНечисловыеПоказателиИсточник_Товары_Артикул=VANonNumbersSource_Goods_ProductID
+ВАГруппировкаПоАналитикам=VAGroupingByAnalytics
+ВАГруппировкаПоАналитикам_ТоварыСумма_Максимум=VAGroupingByAnalytics_GoodsSum_Maximum
+ВАГруппировкаПоАналитикам_ТоварыБезИтога_Максимум=VAGroupingByAnalytics_GoodsNoTotal_Maximum
+
+Меркурий ООО\nВА - Основной сценарий\nRUB\nЯнварь 2021 г.\nМесяц=Mercury LLC\nVA - Main scenario\nRUB\nJanuary 2021\nMonth
+Меркурий ООО\nВА - Основной сценарий\nRUB\nФевраль 2021 г.\nМесяц=Mercury LLC\nVA - Main scenario\nRUB\nFebruary 2021\nMonth
+Меркурий ООО\nВА - Основной сценарий\nRUB\nМарт 2021 г.\nМесяц=Mercury LLC\nVA - Main scenario\nRUB\nMarch 2021\nMonth
+
+# Тест 08
+ВА - Нарастающий итог=VA - Cumulative total
+
+Расчет значения параметра=Parameter value calculation
+
+ДанныеИсточника=SourceData
+ИзИсточникаДоВычисления=FromSourceBeforeCalculation
+ИзИсточникаДоВычисленияХ2=FromSourceBeforeCalculationX2
+ИзИсточникаПослеВычисления=FromSourceAfterCalculation
+ИзИсточникаОтборПоПериоду=FromSourceSelectionByPeriod
+ИзПриемникаОтборПоПериоду=FromReceiverSelectionByPeriod
+ИзПриемникаСдвигПериода=FromReceiverShiftPeriod
+ИзИсточникаПроизвольныйКод=FromSourceArbitraryCode
+
+ИзПриемникаСдвигПери=FromReceiverSelectio
+ИзИсточникаДоВычисле=FromSourceBeforeCalc
+ИзИсточникаПослеВычи=FromSourceAfterCalcu
+ВАНарастающийИтогИсточник=VACumulativeTotalSource
+
+ОбщийИтог=GrandTotal
+
+# Тест 09
+ВА - Валютные показатели=VA - Currency indicators
+
+значение=value
+
+Выручка=Revenue
+Выручка в валюте=Revenue in currency
+Выручка по валюте=Revenue by currency
+
+ВыручкаВВалюте=RevenueInCurrency
+ВыручкаПоВалюте=RevenueByCurrency
+ДатаКурса=EffectiveOn
+
+Средний курс за период=Average rate for period
+Средний курс за период МСФО=Average rate for IFRS period
+Средний курс за период ЦБ=Average rate for period CB
+Курс на начало периода=Exchange rate at the beginning of the period
+Курс на конец периода=Exchange rate at the end of the period
+Средний курс за предыдущий период=Average rate for the previous period
+Курс на конец предыдущего периода=Exchange rate at the end of the previous period
+Средний курс за предыдущий период ЦБ=Average rate for the previous period CB
+Курс на дату указанную в показателе=Exchange rate as of the date specified in the indicator
+Курс на дату указанную в показателе другого отчета=Exchange rate as of the date specified in the indicator another report
+Курс указанный в показателе=Rate specified in the indicator
+Курс указанный в показателе другого отчета=Rate specified in the indicator another report
+
+# Тест 10
+ВА - Тест загрузки по ADO=VA - Download test by ADO
+ВА - Таблицы АДО=VA - ADO tables
+ВА_ЗагрузкаADO=VA_LoadingADO_En
+
+$КаталогПроекта$\Макеты\ADO=$КаталогПроекта$\Макеты\ADO_En
+
+ВидСубконто.Номенклатура -> ТаблицаADO.Лист1=ВидСубконто.Product range -> ТаблицаADO.Sheet1
+ВидСубконто.Статьи ДДС -> ТаблицаADO.Лист1=ВидСубконто.Cash flow items -> ТаблицаADO.Sheet1
+
+1С:КП ГУ ПРОФ на 12 месяцев=1C:KP GU PROF for 12 months
+1С:КП ГУ ПРОФ на 6 месяцев=1C:KP GU PROF for 6 months
+КПГУПроф12=KPGUProf12
+КПГУПроф6=KPGUProf6
+
+# Тест 11
+ВА - Контекстные пересчеты=VA - Recalculations in context
+ВА - Контекстный пересчет=VA - Recalculation in context
+ВА - Сценарий для индексации=VA - Script for indexing
+
+НастройкиКДНастройкиПорядок=DCSettingsOrderSettings
+
+Итог=Total
+Первая ячейка=First cell
+Невозможно записать значения показателей. Установлен запрет на изменение по параметрам:\n	Сценарий: "ВА - Сценарий для индексации",\n	Организация: "Меркурий ООО",\n	Период: "Январь 2021 г."=Cannot save indicator values. Block to change by parameters is set:\n	Scenario: "VA - Script for indexing",\n	Company: "Mercury LLC",\n	Period: "January 2021"
+Выбранная валюта KZT не соответствует валютам установленным в регламенте по параметрам:\n	Сценарий: "ВА - Основной сценарий",\n	Организация: "Меркурий ООО",\n	Период: "Январь 2021 г."=The selected currency KZT does not correspond to the currencies set in parameter regulation:\n	Scenario: "VA - Main scenario",\n	Company: "Mercury LLC",\n	Period: "January 2021"
+
+$КаталогПроекта$\\Макеты\\ВА_КонтекстныйПересчетЭталон.xlsx=$КаталогПроекта$\\Макеты\\ВА_КонтекстныйПересчетЭталон_En.xlsx
+$КаталогПроекта$\\Макеты\\ВА_КонтекстныйПересчетПодготовленный.xlsx=$КаталогПроекта$\\Макеты\\ВА_КонтекстныйПересчетПодготовленный_En.xlsx
+$КаталогПроекта$\\Макеты\\ВА_КонтекстныйПересчетИсходный.xlsx=$КаталогПроекта$\\Макеты\\ВА_КонтекстныйПересчетИсходный.xlsx
+
+# Тест 12
+ВА - Заполнение пустых аналитик=VA - Filling empty analytics
+ПремникТаЖеАналитика=SuccessorSameAnalytics
+ПремникПустаяАналитика=SuccessorEmptyAnalytics
+
+ВА - Заполнение пустых аналитик_Источник сумма=VA - Filling empty analytics_Source amount
+ВА - Заполнение пустых аналитик_Источник дата=VA - Filling empty analytics_Source date
+
+# Тест 13
+ВА - Трансформации периодов=VA - Transformations period 
+ВА - Трансформация периодов=VA - Transformation period
+Накопление=Accumulation
+
+ВА - Трансформация периодов_Накопление сумма=VA - Transformation period_Accumulation Amount
+ВАТрансформацияПериодов_Источник_Сумма=VATransformationPeriod_Source_Amount
+ВАТрансформацияПериодов_Накопление_Сумма=VATransformationPeriod_Accumulation_Amount
+ВАТрансформацияПериодов_Приемник_Сумма=VATransformationPeriod_Destination_Amount
+
+Обнаружена рекурсия в связях при расчете показателя: "Приемник сумма".\nПроверьте формулы расчета и перезапишите правило расчета.=Recursion is found in links when calculating the indicator: "Destination amount".\nCheck calculation formulas and rewrite the calculation rule.
+Обнаружена рекурсия в связях при расчете показателя: "Накопление сумма".\nПроверьте формулы расчета и перезапишите правило расчета.=Recursion is found in links when calculating the indicator: "Accumulation amount".\nCheck calculation formulas and rewrite the calculation rule.
+Обнаружена рекурсия в связях при расчете показателя: "Итог сумма".\nПроверьте формулы расчета и перезапишите правило расчета.=Recursion is found in links when calculating the indicator: "Total amount".\nCheck calculation formulas and rewrite the calculation rule.
+{"S","Дерево расчета:\n	Итог сумма\n		Накопление сумма\n			Приемник сумма\n				Источник сумма\n				Итог сумма"}={"S","Calculation tree:\n	Total amount\n		Accumulation amount\n			Destination amount\n				Source amount\n				Total amount"}
+{"S","Дерево расчета:\n	Приемник сумма\n		Источник сумма\n		Итог сумма\n			Накопление сумма\n				Приемник сумма"}={"S","Calculation tree:\n	Destination amount\n		Source amount\n		Total amount\n			Accumulation amount\n				Destination amount"}
+{"S","Дерево расчета:\n	Накопление сумма\n		Приемник сумма\n			Источник сумма\n			Итог сумма\n				Накопление сумма"}={"S","Calculation tree:\n	Accumulation amount\n		Destination amount\n			Source amount\n			Total amount\n				Accumulation amount"}
+
+# Тест 14
+
+ВА - Протокол расчета=VA - Calculation protocol
+
+СтрокаОтчета=ReportLine
+Период начала=Start period
+
+Из расчета исключен заблокированный период по параметрам:\n	Период: "Январь 2021 г."\n	Регламент: "ВА - Основной регламент",\n	Сценарий: "ВА - Основной сценарий",\n	Организация: "Земля ООО"=Locked period is excluded from calculation by the following parameters:\n	Period: "January 2021"\n	Regulation: "VA - Main regulations",\n	Scenario: "VA - Main scenario",\n	Company: "Earth LLC"
+Из расчета исключен заблокированный период по параметрам:\n	Период: "Февраль 2021 г."\n	Регламент: "ВА - Основной регламент",\n	Сценарий: "ВА - Основной сценарий",\n	Организация: "Земля ООО"=Locked period is excluded from calculation by the following parameters:\n	Period: "February 2021"\n	Regulation: "VA - Main regulations",\n	Scenario: "VA - Main scenario",\n	Company: "Earth LLC"
 
