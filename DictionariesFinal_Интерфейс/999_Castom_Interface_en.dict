@@ -108,11 +108,12 @@ $ФормулыКод$\nМарт 2021 г.\nМесяц=$ФормулыКод$\nMa
 Товарные категории=Product categories
 Статьи ДДС=Cash flow items
 Программные продукты=Software products
-Реализация программных продуктов=Software sale
-Внедрение программных продуктов=Software implementation
-Апгрейд программных продуктов=Software upgrade
+Реализация программных продуктов=3Software sale
+Внедрение программных продуктов=2Software implementation
+Апгрейд программных продуктов=1Software upgrade
 
 1С:Предприятие 8.3 КОРП. Лицензия на сервер=4C:Enterprise 8.3 CORP. Server License
+1С:Предприятие 8.3 КОРП. Лицензия на сервер (x86-64)=4C:Enterprise 8.3 CORP. Server License (x86-64)
 1С:Предприятие 8 КОРП. Клиентская лицензия на 100 рабочих мест=3C:Enterprise 8 CORP. Client license for 100 users
 1С:Управление холдингом 8=5C:Corporate performance management
 1С:Корпорация=2C:Corporation
