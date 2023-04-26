@@ -762,7 +762,7 @@
 ТипОбъекта=ObjectType
 СписокВидов=ListOfSpecies
 СтавкаНДС=VATRate
-НоменклатурныеГруппы=ProductGroups_1
+НоменклатурныеГруппы=ProductRangeGroups
 ТипВнешнегоИсточника=ExternalSourceType
 ТекКод=CurCode
 Страны=Countries
