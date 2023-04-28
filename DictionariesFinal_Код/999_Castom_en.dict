@@ -106,6 +106,8 @@
 ФормаОбновитьСУчетомВерсий=FormUpdateConsideringVersions
 ЭффективнаяДоля=EffectiveShare
 МетодИсключенияВГО=IntercompanyTransactionsExclusionMethod
+ПравилоПроверки=CheckRule
+ПериодичностьСвертки=ReconciliationFrequency
 
 # Ошибки в основном словаре
 Нет=No
@@ -121,6 +123,10 @@
 ФормаКомандаОК=FormOkCommand
 Элемент_Организация=Item_Organization
 
+#Переделать на мультиязычность
+Классический=Classic
+Файлы Microsoft Excel=Microsoft Excel files
+
 # Специфичные фразы для тестов
 
 # Тест 01
@@ -130,6 +136,8 @@
 ФормаСравнитьСЭталоннымМакетомПоЗначениям=FormCompareWithRefTemplateByValue
 ФормаСравнитьДокументы=FormCompareDocuments
 ФормаОткрытьДвиженияДокументаПлоскаяТаблица=FormOpenDocumentRegisterRecordsFlatTab
+НеСуммируется=DoNotSumUp
+НеСуммируетсяИзменить=DoNotSumUpChange
 
 # Тест 02
 $КаталогПроекта$\\Макеты=$КаталогПроекта$\\Макеты
@@ -141,7 +149,7 @@ $КаталогПроекта$\Макеты\ВА_ИмпортExcel_Шаблон.
 $КаталогПроекта$\Макеты\ВА_ИмпортExcel_Меркурий_En.xlsx=$КаталогПроекта$\Макеты\ВА_ИмпортExcel_Меркурий_En.xlsx
 $КаталогПроекта$\Макеты\ВА_ИмпортExcel_Меркурий_2_En.xlsx=$КаталогПроекта$\Макеты\ВА_ИмпортExcel_Меркурий_2_En.xlsx
 $КаталогПроекта$\Макеты\ВА_ИмпортExcel_Меркурий_2.xlsm=$КаталогПроекта$\Макеты\ВА_ИмпортExcel_Меркурий_2_En.xlsm
-ВА_ИмпортExcel_Меркурий.xlsx=ВА_ИмпортExcel_Меркурий_En.xlsx
+ВА_ИмпортExcel_Меркурий=ВА_ИмпортExcel_Меркурий
 СписокЛистов=SheetsList
 ПоддерживатьИерархию1=ShouldSupportHierarchy1
 ПересчитатьПрочие=RecalculateOther
