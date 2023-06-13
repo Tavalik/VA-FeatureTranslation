@@ -89,43 +89,38 @@
 
 # Всторенный язык
 ПустаяСтрока=IsBlankString
+СтрНачинаетсяС=StrStartsWith
 ПланыВидовХарактеристик=ChartsOfCharacteristicTypes
 ПС=LF
 
 # Нет в основном словаре
 ФормаОтчетГрафическийОтчетСвязейОтчетовОткрытьОтчет=FormReportGraphicReportOnReportLinksOpenReport
 ФормаОтчетОтчетОСвязяхМеждуОтчетамиОткрытьОтчет=FormReportReportLinksReportOpenReport
+ТаблицаРедактированияКурсовТаблицаКурсов_Обновить=RatesEditTableRatesTable_Update
+ТаблицаРедактированияКурсовТаблицаКурсов_Записать=RatesEditTableRatesTable_Write
 количество=count
-Цена=Price
 цена=price
 УникальныйИдентификатор=UUID
 МакетИмпорта=ImportTemplate
 Группу=Folder
-Номер=Number
 НеФинансовый=NonFinancial
 ФормаОбновитьСУчетомВерсий=FormUpdateConsideringVersions
 ЭффективнаяДоля=EffectiveShare
 МетодИсключенияВГО=IntercompanyTransactionsExclusionMethod
-ПравилоПроверки=CheckRule
-ПериодичностьСвертки=ReconciliationFrequency
+ПолеНастройки=CustomField
+ФормаЗаполнитьПрочимСпособом=FormFillInUsingAnotherApproach
+ИТОГО=TOTAL
+Итого=Total
+валюты=currencies
+ФормаНастроитьСоответствия=FormConfigureMappings
+ФормаОткрытьСвойстваПроцесса=FormOpenProcessProperties
 
 # Ошибки в основном словаре
 Нет=No
 КонтекстноеМенюУстановитьПометкуУдаления=ContextMenuSetDeletionMark
-ТаблицаРедактированияКурсовТаблицаКурсов_Обновить=RatesEditTableRatesTable_Update
-ТаблицаРедактированияКурсовТаблицаКурсов_Записать=RatesEditTableRatesTable_Write
-#ВидыОтчетовИспользовать=ReportsKindsUse
 ОтборСнятьФлажки=FilterUncheckAll
-ИТОГО=TOTAL
-Итого=Total
-валюты=currencies
-ФормаЗаполнитьПрочимСпособом=FormFillInUsingAnotherApproach
-ФормаКомандаОК=FormOkCommand
-Элемент_Организация=Item_Organization
-
-#Переделать на мультиязычность
-Классический=Classic
-Файлы Microsoft Excel=Microsoft Excel files
+НоменклатурныеГруппы=ProductRangeGroups
+#ФормаВыбрать=FormChoose
 
 # Специфичные фразы для тестов
 
@@ -136,55 +131,11 @@
 ФормаСравнитьСЭталоннымМакетомПоЗначениям=FormCompareWithRefTemplateByValue
 ФормаСравнитьДокументы=FormCompareDocuments
 ФормаОткрытьДвиженияДокументаПлоскаяТаблица=FormOpenDocumentRegisterRecordsFlatTab
-НеСуммируется=DoNotSumUp
-НеСуммируетсяИзменить=DoNotSumUpChange
-
-# Тест 02
-$КаталогПроекта$\\Макеты=$КаталогПроекта$\\Макеты
-ВА_КонтекстныйПересчетИсходный=ВА_КонтекстныйПересчетИсходный
-
-# Тест 03
-$КаталогПроекта$\Макеты\ВА_ИмпортExcel_Шаблон.xlsx=$КаталогПроекта$\Макеты\ВА_ИмпортExcel_Шаблон.xlsx
-$КаталогПроекта$\Макеты\ВА_ИмпортExcel_Шаблон.mxl=$КаталогПроекта$\Макеты\ВА_ИмпортExcel_Шаблон.mxl
-$КаталогПроекта$\Макеты\ВА_ИмпортExcel_Меркурий_En.xlsx=$КаталогПроекта$\Макеты\ВА_ИмпортExcel_Меркурий_En.xlsx
-$КаталогПроекта$\Макеты\ВА_ИмпортExcel_Меркурий_2_En.xlsx=$КаталогПроекта$\Макеты\ВА_ИмпортExcel_Меркурий_2_En.xlsx
-$КаталогПроекта$\Макеты\ВА_ИмпортExcel_Меркурий_2.xlsm=$КаталогПроекта$\Макеты\ВА_ИмпортExcel_Меркурий_2_En.xlsm
-ВА_ИмпортExcel_Меркурий=ВА_ИмпортExcel_Меркурий
-СписокЛистов=SheetsList
-ПоддерживатьИерархию1=ShouldSupportHierarchy1
-ПересчитатьПрочие=RecalculateOther
-
-# Тест 04
-КонструкторЗапроса=QueryWizard
-
-# Тест 07
-Макеты\ВА_РасчетВКоде_Движения.mxl=Макеты\ВА_РасчетВКоде_Движения.mxl
-Макеты\ВА_ГруппировкаПоАналитикам_Движения.mxl=Макеты\ВА_ГруппировкаПоАналитикам_Движения.mxl
-
-# Тест 08
-Макеты\ВА_НарастающийИтог.mxl=Макеты\ВА_НарастающийИтог.mxl
-Макеты\ВА_НарастающийИтог_Движения.mxl=Макеты\ВА_НарастающийИтог_Движения.mxl
-
-# Тест 09
-Макеты\ВА_ВалютныеПоказатели_Источник_Движения.mxl=Макеты\ВА_ВалютныеПоказатели_Источник_Движения.mxl
-Макеты\ВА_ВалютныеПоказатели_Приемник_Движения.mxl=Макеты\ВА_ВалютныеПоказатели_Приемник_Движения.mxl
 
 # Тест 10
-$КаталогПроекта$\Макеты\ADO\Model_ADO_Perform.xml=$КаталогПроекта$\Макеты\ADO\Model_ADO_Perform.xml
-$КаталогПроекта$\Макеты\ADO_En\Model_ADO_Perform_En.xml=$КаталогПроекта$\Макеты\ADO_En\Model_ADO_Perform_En_En.xml
-$КаталогПроекта$\Макеты\ADO\Model_ADO_УХ32.xml=$КаталогПроекта$\Макеты\ADO\Model_ADO_УХ32.xml
-$КаталогПроекта$\Макеты\ADO\Model_ADO_ERP.xml=$КаталогПроекта$\Макеты\ADO\Model_ADO_ERP.xml
-Макеты\ВА_ТестЗагрузкиПоADO_Движения.mxl=Макеты\ВА_ТестЗагрузкиПоADO_Движения.mxl
-Список_ВидОтчетаНайти=List_ReportTypeFind
-Список_ВидОтчетаСоздать=List_ReportTypeCreate
-ФормаНастроитьСоответствия=FormConfigureMappings
+#Список_ВидОтчетаНайти=List_ReportTypeFind
+#Список_ВидОтчетаСоздать=List_ReportTypeCreate
 
 # Тест 11
 ФормаВидимостьВидыОтчетов=FormReportsTypesVisibility
 ФормаВидимостьПроцедурИФункций=FormProceduresAndFunctionsVisibility
-
-# Тест 14
-ПересчитатьПоРегламенту=RecalculateAccordingToRegulations
-
-# Тест 15
-Макеты\ВА_КонтролируемыеПоказатели_Движения.mxl=Макеты\ВА_КонтролируемыеПоказатели_Движения.mxl
