@@ -93,6 +93,9 @@
 ПланыВидовХарактеристик=ChartsOfCharacteristicTypes
 ПС=LF
 
+# Проверить и удалить после актуализации словарей
+КомандаОК=OkCommand
+
 # Нет в основном словаре
 ФормаОтчетГрафическийОтчетСвязейОтчетовОткрытьОтчет=FormReportGraphicReportOnReportLinksOpenReport
 ФормаОтчетОтчетОСвязяхМеждуОтчетамиОткрытьОтчет=FormReportReportLinksReportOpenReport
@@ -120,7 +123,6 @@
 КонтекстноеМенюУстановитьПометкуУдаления=ContextMenuSetDeletionMark
 ОтборСнятьФлажки=FilterUncheckAll
 НоменклатурныеГруппы=ProductRangeGroups
-#ФормаВыбрать=FormChoose
 
 # Специфичные фразы для тестов
 
@@ -131,10 +133,6 @@
 ФормаСравнитьСЭталоннымМакетомПоЗначениям=FormCompareWithRefTemplateByValue
 ФормаСравнитьДокументы=FormCompareDocuments
 ФормаОткрытьДвиженияДокументаПлоскаяТаблица=FormOpenDocumentRegisterRecordsFlatTab
-
-# Тест 10
-#Список_ВидОтчетаНайти=List_ReportTypeFind
-#Список_ВидОтчетаСоздать=List_ReportTypeCreate
 
 # Тест 11
 ФормаВидимостьВидыОтчетов=FormReportsTypesVisibility
