@@ -96,6 +96,7 @@ $ФормулыКод$\nМарт 2021 г.\nМесяц=$ФормулыКод$\nMa
 ВА - Контрагенты=VA - Counterparties
 ВА - Статьи ДДС=VA - Cash flow items
 ВА - Статьи доходов и расходов=VA - Income and expense items
+ВА - Пустые аналитики=VA - Empty analytics
 
 ВА0ТовКате=VA0ProCate
 ВА0Номенкл=VA0Product
