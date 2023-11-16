@@ -117,14 +117,28 @@
 валюты=currencies
 ФормаНастроитьСоответствия=FormConfigureMappings
 ФормаОткрытьСвойстваПроцесса=FormOpenProcessProperties
+организации=companies
+ФормаОбновитьТаблицу=FormUpdateTable
+ПериодичностьСреднесрочнойГруппировки=MidTermGroupingFrequency
+НадписьОбновитеТаблицу=LabelUpdateTable
+РольАдресации1=AddressingRole1
+ЭтапСогласования=ApprovalStep
+Автоутверждение=AutoConfirmation
+УсловныйПереход=ConditionalTransition
+ТабличноеПолеПерехода=TransitionTableBox
+ТабличноеПолеПереходаОтображениеДействияТекст=TransitionTableBoxActionDisplayText
+ФормаДобавитьСогласующих=FormAddApprovers
 
 # Ошибки в основном словаре
 Нет=No
 КонтекстноеМенюУстановитьПометкуУдаления=ContextMenuSetDeletionMark
 ОтборСнятьФлажки=FilterUncheckAll
 НоменклатурныеГруппы=ProductRangeGroups
+ГруппыПользователейКонтекстноеМенюНайти=UserGroupsContextMenuFind
+ДеревоГрупп=GroupsTree
 
 # Специфичные фразы для тестов
+ЯзыкИнтерфейса=InterfaceLanguage
 
 # Тест 01
 ПолеТабличногоДокументаМакетКонтекстноеМенюУдалитьПоказатель=SpreadsheetFieldTemlateContextMenuDeleteIndicator
@@ -133,6 +147,11 @@
 ФормаСравнитьСЭталоннымМакетомПоЗначениям=FormCompareWithRefTemplateByValue
 ФормаСравнитьДокументы=FormCompareDocuments
 ФормаОткрытьДвиженияДокументаПлоскаяТаблица=FormOpenDocumentRegisterRecordsFlatTab
+
+# Тест 07
+НоменклатураИсключение=ProductException
+И ЦеныНоменклатуры.Номенклатура <> &НоменклатураИсключение=AND ItemsPrices.Products <> &ProductException
+И Номенклатура.Ссылка <> &НоменклатураИсключение=AND Products.Ref <> &ProductException
 
 # Тест 11
 ФормаВидимостьВидыОтчетов=FormReportsTypesVisibility
