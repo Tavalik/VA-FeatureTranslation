@@ -26,7 +26,6 @@
 Вид доступа=Access kind
 Значение доступа=Access Value
 Включая нижестоящие=Include subordinate items
-Кратность=Multiplying factor
 Конструктор отчета=Report wizard
 
 Матрица доступа к видам отчетов=Report type access matrix
@@ -72,7 +71,7 @@
 Срез последних=Slice of the last ones
 Общая дата=Single date for all sections and objects
 Правило обработки=Processing rule
-тысячах=thousand
+тысячах=thousands
 Строка=Line
 Уточнение отбора=Filter clarification
 Результат=Result
@@ -92,6 +91,7 @@
 В списке=In list
 УникальныйИдентификатор=UUID
 ДобавитьМесяц=AddMonth
+Курсы валют=Currency exchange rates
 
 # Специфичные фразы для тестов
 Пометить * на удаление?=Mark * for deletion?
@@ -529,8 +529,7 @@ $КаталогПроекта$\Макеты\10\ADO=$КаталогПроекта
 У пользователя Бюджетирование2\nотсутствуют права на изменение экземпляров отчетов с бланком ВА - Проверка настроек доступа (нет) по организации Система ООО=The Budgeting2 user\nhas insufficient rights to change report instances with the VA - Checking access settings (no) template by the System LLC company
 Основной язык=Main language
 Не использовать прокси-сервер=Do not use proxy server
-Исполнитель=Performer
-Курсы валют=Exchange rates
+Исполнитель=Assignee
 
 Параметры=Data parameters
 Версия регламента: ВА - Основной регламент=Regulation version: VA - Main regulations
@@ -542,7 +541,7 @@ $КаталогПроекта$\Макеты\10\ADO=$КаталогПроекта
 Для объекта * ответственный за согласование в матрице полномочий не задан. Поле Статус доступно для редактирования. Установите нужный статус согласования вручную=No person responsible for approval is specified in the responsibility assignment matrix for *. Enter proper approval status manually.
 По объекту * не запущен процесс согласования.=Approval has not been initiated for object *.
 Для объекта * ответственный за согласование в матрице полномочий не задан. Установите нужный статус согласования вручную=Person responsible for approval of the * object is not specified in the responsibility assignment matrix. The Status field is available for editing. Set the required approval status manually
-Для организации "Меркурий ООО" текущий пользователь не обладает ролью "Суперпользователь"=Для организации "Mercury LLC" текущий пользователь не обладает ролью "Суперпользователь"
+Для организации "Меркурий ООО" текущий пользователь не обладает ролью "Суперпользователь"=Current user does not have the "Superuser" role for company "Mercury LLC"
 
 Для объекта Корректировка значений показателей * ответственный за согласование в матрице полномочий не задан. Поле Статус доступно для редактирования. Установите нужный статус согласования вручную=No person responsible for approval is specified in the responsibility assignment matrix for *. Enter proper approval status manually.
 По объекту Корректировка значений показателей * не запущен процесс согласования.=Approval has not been initiated for object *.
