@@ -92,6 +92,7 @@
 СтрНачинаетсяС=StrStartsWith
 ПланыВидовХарактеристик=ChartsOfCharacteristicTypes
 ПС=LF
+МАКС=MAX
 
 # Проверить и удалить после актуализации словарей
 КомандаОК=OkCommand
@@ -135,6 +136,8 @@
 ФормаОбщаяКомандаУниверсальноеСогласование_МаршрутСогласования=FormCommonCommandUniversalApproval_ApprovalRoute
 ФормаОтчетОрганизационныеСтруктурыРегламентаОрганизационнаяСтруктураДиаграмма=FormReportOrganizationalRegulationStructuresBusinessUnitChart
 ФормаОтчетОрганизационныеСтруктурыРегламентаОрганизационнаяСтруктураТаблица=FormReportOrganizationalRegulationStructuresBusinessUnitTable
+ВыбратьЦФО=SelectCenterForFinancialResponsibility
+ФормаОтобразитьПримечания=FormDisplayComments
 
 # Ошибки в основном словаре
 Нет=No
@@ -145,10 +148,18 @@
 ДеревоГрупп=GroupsTree
 КлючевыеРеквизитыЗаполнитьКлючевыеРеквизиты=KeyAttributesPopulateKeyAttributes
 Бланк=Form
+ОчиститьСодержимое=ClearUpContent
+ФормируемыеДокументыШаблонДокумента=GeneratedDocumentsDocumentTemplate
+ДеревоОперацииОрганизацияШаблонДокумента=TransactionsTreeCompanyDocumentTemplate
 
 # Специфичные фразы для тестов
 ЯзыкИнтерфейса=InterfaceLanguage
 Ок=OK
+КодВалюта=CodeCurrency
+Бланк_1=Template_1
+#ФормаВыбрать=FormChoose была ошибка с другими формами
+ФормаВыгрузить=FormExport
+СТРК=Line
 
 # Тест 01
 ПолеТабличногоДокументаМакетКонтекстноеМенюУдалитьПоказатель=SpreadsheetFieldTemlateContextMenuDeleteIndicator
