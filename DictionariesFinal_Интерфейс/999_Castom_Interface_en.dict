@@ -213,7 +213,6 @@ $ФормулыКод$\nМарт 2024 г.\nМесяц=$ФормулыКод$\nMa
 Работа с настраиваемой отчетностью (экземпляры отчетов, корректировки, сводная таблица)=Operations with customizable reporting (report instances, adjustments, and pivot table)
 Просмотр настраиваемой отчетности (экземпляры отчетов, корректировки, сводная таблица)=View customizable reporting (report instances, adjustments, and pivot table)
 Открытие внешних отчетов и обработок=Open external reports and data processors
-Экземпляр отчета *=The * report instance: *
 Матрица экземпляров отчетов=Report instance matrix
 
 # Тест 01
@@ -229,23 +228,23 @@ $ФормулыКод$\nМарт 2024 г.\nМесяц=$ФормулыКод$\nMa
 
 ГруппаСтрок_Сумма1=LinesGroup_Amount1
 СТРКСинтетика_Сумма1=LineSynthetic_Amount1
-СТРКАНЛТ1_Сумма1=LineANLT1_Amount1
-СТРКАНЛТ2_Сумма1=LineANLT2_Amount1
-СТРКАНЛТ3_Сумма1=LineANLT3_Amount1
-СТРКАНЛТ4_Сумма1=LineANLT4_Amount1
-СТРКАНЛТ5_Сумма1=LineANLT5_Amount1
-СТРКАНЛТ6_Сумма1=LineANLT6_Amount1
-СТРКАНЛТ6Валюта_Сумма1=LineANLT6Currency_Amount1
-СТРКАНЛТВалюта_Сумма1=LineANLTCurrency_Amount1
+СТРКАНЛТ1_Сумма1=LineDimension1_Amount1
+СТРКАНЛТ2_Сумма1=LineDimension2_Amount1
+СТРКАНЛТ3_Сумма1=LineDimension3_Amount1
+СТРКАНЛТ4_Сумма1=LineDimension4_Amount1
+СТРКАНЛТ5_Сумма1=LineDimension5_Amount1
+СТРКАНЛТ6_Сумма1=LineDimension6_Amount1
+СТРКАНЛТ6Валюта_Сумма1=LineDimension6Curren_Amount1
+СТРКАНЛТВалюта_Сумма1=LineDimensionCurrenc_Amount1
 
-СТРКАНЛТ=LineANLT
-СТРКАНЛТВалюта=LineANLTCurrency
-СТРКАНЛТ6Валюта=LineANLT6Currency
-СТРКАНЛТ6Валюта_Количество1=LineANLT6Currency_Count1
-СТРКАНЛТ6Валюта_Цена1=LineANLT6Currency_Price1
-СТРКАНЛТ6Валюта_Сумма1=LineANLT6Currency_Amount1
+СТРКАНЛТ=LineDimension
+СТРКАНЛТВалюта=LineDimensionCurrenc
+СТРКАНЛТ6Валюта=LineDimension6Curren
+СТРКАНЛТ6Валюта_Количество1=LineDimension6Curren_Count1
+СТРКАНЛТ6Валюта_Цена1=LineDimension6Curren_Price1
+СТРКАНЛТ6Валюта_Сумма1=LineDimension6Curren_Amount1
 СТРКУдалить=LineDelete
-({ВАРучнойВводПоВсемАналитикам.СТРКСинтетика_Цена1}+{ВАРучнойВводПоВсемАналитикам.СТРКАНЛТ1_Цена1}+{ВАРучнойВводПоВсемАналитикам.СТРКАНЛТ2_Цена1}+{ВАРучнойВводПоВсемАналитикам.СТРКАНЛТ3_Цена1}+{ВАРучнойВводПоВсемАналитикам.СТРКАНЛТ4_Цена1}+{ВАРучнойВводПоВсемАналитикам.СТРКАНЛТ5_Цена1}+{ВАРучнойВводПоВсемАналитикам.СТРКАНЛТ6_Цена1}+{ВАРучнойВводПоВсемАналитикам.СТРКАНЛТ6Валюта_Цена1}+{ВАРучнойВводПоВсемАналитикам.СТРКАНЛТВалюта_Цена1})/13=({VAManualEntryForAllAnalytics.LineSynthetic_Price1}+{VAManualEntryForAllAnalytics.LineANLT1_Price1}+{VAManualEntryForAllAnalytics.LineANLT2_Price1}+{VAManualEntryForAllAnalytics.LineANLT3_Price1}+{VAManualEntryForAllAnalytics.LineANLT4_Price1}+{VAManualEntryForAllAnalytics.LineANLT5_Price1}+{VAManualEntryForAllAnalytics.LineANLT6_Price1}+{VAManualEntryForAllAnalytics.LineANLT6Currency_Price1}+{VAManualEntryForAllAnalytics.LineANLTCurrency_Price1})/13
+({ВАРучнойВводПоВсемАналитикам.СТРКСинтетика_Цена1}+{ВАРучнойВводПоВсемАналитикам.СТРКАНЛТ1_Цена1}+{ВАРучнойВводПоВсемАналитикам.СТРКАНЛТ2_Цена1}+{ВАРучнойВводПоВсемАналитикам.СТРКАНЛТ3_Цена1}+{ВАРучнойВводПоВсемАналитикам.СТРКАНЛТ4_Цена1}+{ВАРучнойВводПоВсемАналитикам.СТРКАНЛТ5_Цена1}+{ВАРучнойВводПоВсемАналитикам.СТРКАНЛТ6_Цена1}+{ВАРучнойВводПоВсемАналитикам.СТРКАНЛТ6Валюта_Цена1}+{ВАРучнойВводПоВсемАналитикам.СТРКАНЛТВалюта_Цена1})/13=({VAManualEntryForAllAnalytics.LineSynthetic_Price1}+{VAManualEntryForAllAnalytics.LineDimension1_Price1}+{VAManualEntryForAllAnalytics.LineDimension2_Price1}+{VAManualEntryForAllAnalytics.LineDimension3_Price1}+{VAManualEntryForAllAnalytics.LineDimension4_Price1}+{VAManualEntryForAllAnalytics.LineDimension5_Price1}+{VAManualEntryForAllAnalytics.LineDimension6_Price1}+{VAManualEntryForAllAnalytics.LineDimension6Curren_Price1}+{VAManualEntryForAllAnalytics.LineDimensionCurrenc_Price1})/13
 ВА - Ручной ввод по всем аналитикам_СтрокаАналитика1=VA - Manual entry for all analytics_LineDimension1
 
 По правилу обработки=By processing rule
@@ -561,8 +560,6 @@ $КаталогПроекта$\Макеты\10\ADO=$КаталогПроекта
 Основной язык=Main language
 Не использовать прокси-сервер=Do not use proxy server
 Исполнитель=Assignee
-
-
 
 Параметры=Data parameters
 Версия регламента: ВА - Основной регламент=Regulation version: VA - Main regulations
